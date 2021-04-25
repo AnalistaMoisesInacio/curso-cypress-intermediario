@@ -1,0 +1,27 @@
+{
+  "name": "curso-cypress-intermediario",
+  "version": "1.0.0",
+  "description": "Curso intermediário de automação de testes com Cypress da Escola Talking About Testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run:specific": "npx cypress run --spec cypress/integration/gui/logout.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnalistaMoisesInacio/curso-cypress-intermediario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnalistaMoisesInacio/curso-cypress-intermediario/issues"
+  },
+  "homepage": "https://github.com/AnalistaMoisesInacio/curso-cypress-intermediario#readme",
+  "devDependencies": {
+    "cypress": "^6.6.0",
+    "faker": "^5.5.3",
+    "lodash": "^4.17.21"
+  }
+}
